@@ -43,7 +43,6 @@
 #define SMI_TIMING_31M   2,  4,  6,  4  // 31.25 MS/s
 #define SMI_TIMING_42M   2,  3,  6,  3  // 41.66 MS/s
 #define SMI_TIMING_50M   2,  3,  5,  2  // 50 MS/s
-#endif
 
 // Number of raw bytes per ADC sample
 #define SAMPLE_SIZE     2
