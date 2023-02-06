@@ -35,13 +35,7 @@
 #define SMI_NUM_BITS    SMI_16_BITS
 #define SMI_TIMING      SMI_TIMING_20M
 
-#if PHYS_REG_BASE==PI_4_REG_BASE        // Timings for RPi v4 (1.5 GHz)
-#define SMI_TIMING_1M   10, 38, 74, 38  // 1 MS/s
-#define SMI_TIMING_10M   6,  6, 13,  6  // 10 MS/s
-#define SMI_TIMING_20M   4,  5,  9,  5  // 19.74 MS/s
-#define SMI_TIMING_25M   4,  3,  8,  4  // 25 MS/s
-#define SMI_TIMING_31M   4,  3,  6,  3  // 31.25 MS/s
-#else                                   // Timings for RPi v0-3 (1 GHz)
+// Timings for RPi v0-3 (1 GHz)
 #define SMI_TIMING_1M   10, 25, 50, 25  // 1 MS/s
 #define SMI_TIMING_10M   4,  6, 13,  6  // 10 MS/s
 #define SMI_TIMING_20M   2,  6, 13,  6  // 20 MS/s
